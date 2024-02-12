@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&display=swap" rel="stylesheet">
+  <title>Tarjeta de san valentin</title>
+  <link rel="stylesheet" href="styles.css">
+  
+  <style>
+    #container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: rgb(238, 144, 255);
+    }
+
+    .book {
+      position: relative;
+      border-radius: 10px;
+      width: 210px;
+      height: 300px;
+      /* Internal Image, upload your couple image here */
+      background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsHNUVxZ8LJlI4CVeeYtEpp3Wc9r8xWMujCqK0l0FGVr28-JWZb_ZPfP19ff4X_tVsmV239TNTYyMM2z7jwH_3Z6GSRgwbFhPUoM9e6sUK4SrH83CYfLSqjGOAxubd_G0jZVBB80Iv6PnUoPnCuQ-UAfjE-ySRzzGGZyeGsDBbT3T7sp12lfEpR76zYujz/s320/1.jpg);
+      background-size: cover;
+      background-position: center;
+      background-size: 83%;
+      -webkit-box-shadow: 1px 1px 12px black;
+      box-shadow: 1px 1px 12px black;
+      -webkit-transform: preserve-3d;
+      -ms-transform: preserve-3d;
+      transform: preserve-3d;
+      -webkit-perspective: 2000px;
+      perspective: 2000px;
+    }
+
+    .cover {
+      top: 0;
+      position: absolute;
+      background-color: lightgray;
+      background-image: linear-gradient(40deg, rgb(218, 1, 203), black);
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      cursor: pointer;
+      -webkit-transition: all 0.5s;
+      transition: all 0.5s;
+      -webkit-transform-origin: 0;
+      -ms-transform-origin: 0;
+      transform-origin: 0;
+      -webkit-box-shadow: 1px 1px 12px black;
+      box-shadow: 1px 1px 12px black;
+    }
+
+    .book:hover .cover {
+      -webkit-transition: all 0.5s;
+      transition: all 0.5s;
+      -webkit-transform: rotatey(-85deg);
+      -ms-transform: rotateY(-85deg);
+      transform: rotatey(-95deg);
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div class="book">
+      <div class="cover">
+        <div class="notes">Feliz</div>
+        <div class="heart"></div>
+        <div class="smile"></div>
+        <div class="eyes"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
